@@ -1,0 +1,90 @@
+<!-- https://www.youtube.com/watch?v=dQw4w9WgXcQ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4H32QZ2Q9X"></script>
+        <script>
+            window.dataLayer = window.dataLayer || []
+            const gtag = function() { dataLayer.push(arguments) }
+            gtag("js", new Date())
+            gtag("config", "G-4H32QZ2Q9X")
+        </script>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1.0, user-scalable=no"/>
+
+        <title>movie-web instances</title>
+        <meta name="description" content="Public instances for your favourite place for your favourite movies & shows"/>
+
+        <link rel="icon" href="icons/favicon.ico"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"/>
+        <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#120f1d"/>
+        <meta name="msapplication-TileColor" content="#120f1d"/>
+        <meta name="theme-color" content="#120f1d"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"
+            integrity="sha512-SYfDUYPg5xspsG6OOpXU366G8SZsdHOhqk/icdrYJ2E/WKZxPxze7d2HD3AyXpT7U22PZ5y74xRpqZ6A2bJ+kQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="content" id="content">
+            <noscript>this website uses markdownit to display a markdown file on this page. turn on javascript you silly goose</noscript>
+        </div>
+
+        <script src="script.js"></script>
+
+        <!-- a comments system powered by GitHub Discussions -->
+        <script src="https://giscus.app/client.js"
+            data-repo="erynith/movie-web-instances"
+            data-repo-id="R_kgDOK7so9w"
+            data-category="Announcements"
+            data-category-id="DIC_kwDOK7so984CfL9S"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="noborder_dark"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+        </script>
+    </body>
+
+    <!-- now i know this is cringe but hear me out guys -->
+    <!-- simply use ublock origin -->
+    <script async data-cfasync="false">
+        (function() {
+            const url = new URL(window.location.href)
+            const clickID = url.searchParams.get("click_id")
+            const sourceID = url.searchParams.get("source_id")
+
+            const s = document.createElement("script")
+            s.dataset.cfasync = "false"
+            s.src = "https://push-sdk.com/f/sdk.js?z=1256742"
+            s.onload = (opts) => {
+                opts.zoneID = 1256742
+                opts.extClickID = clickID
+                opts.subID1 = sourceID
+                opts.actions.onPermissionGranted = () => {}
+                opts.actions.onPermissionDenied = () => {}
+                opts.actions.onAlreadySubscribed = () => {}
+                opts.actions.onError = () => {}
+            }
+            document.head.appendChild(s)
+        })()
+    </script>
+    <script async type="text/javascript" src="https://s0-greate.net/p/1260088"></script>
+</html>
